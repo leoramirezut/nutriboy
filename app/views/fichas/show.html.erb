@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @ficha.nombre %>
+</p>
+
+<p>
+  <strong>Edad:</strong>
+  <%= @ficha.edad %>
+</p>
+
+<p>
+  <strong>Peso:</strong>
+  <%= @ficha.peso %>
+</p>
+
+<%= link_to 'Edit', edit_ficha_path(@ficha) %> |
+<%= link_to 'Back', fichas_path %>
